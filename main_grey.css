@@ -1,4 +1,4 @@
-/* [START: main.css]
+/* [START: main.css] - v0.1.1
 
 /* Layout (Torrents page) */
 
@@ -3553,218 +3553,135 @@ img[src="/static/common/torrents/imdb.png"] {
 */
 
 /* ### Tilføj menu ikoner ### */
-
 #nav_index a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_index.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 7px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_torrents a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_torrents.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 10px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_movieindex a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_movieindex.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 17px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_requests a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_requests.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 12px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_forums a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_forums.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 4px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_helpdesk a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_helpdesk.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 24px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_irc a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_irc.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: -2px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
-
-
 
 #nav_top10 a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_top10.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 7px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
-
 }
 
-
-
 #nav_bonus a:before {
-
 	content: " ";
-
 	background-image: url(images/menu/nav_bonus.png);
-
 	background-size: 32px 32px;
-
 	position: absolute;
-
 	left: 4px;
-
-  top: -32px;
-
-  height: 32px;
-
+	top: -32px;
+	height: 32px;
 	width: 32px;
-
 	display: inherit;
+}
 
+#nav_uploader a:before {
+	content: " ";
+	background-image: url(images/menu/nav_uploader.png);
+	background-size: 32px 32px;
+	position: absolute;
+	left: 4px;
+	top: -32px;
+	height: 32px;
+	width: 32px;
+	display: inherit;
+}
+
+#nav_torrentedit a:before {
+	content: " ";
+	background-image: url(images/menu/nav_torrentedit.png);
+	background-size: 32px 32px;
+	position: absolute;
+	left: -7px;
+	top: -32px;
+	height: 32px;
+	width: 32px;
+	display: inherit;
 }
 

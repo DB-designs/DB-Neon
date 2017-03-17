@@ -1,4 +1,4 @@
-/* [START: main.css] - v0.2.2
+/* [START: main.css] - v0.2.3
 /* Layout (Torrents page) */
 
 #lolgo {
@@ -750,7 +750,7 @@ td.colhead, .colhead td {
 	white-space: nowrap;
 	width: auto;
 	text-align: center;
-	background: #262626;
+	background: rgba(38, 49, 109, 0.2);
 }
 
 .colheadmenu a:hover {
@@ -763,12 +763,12 @@ td.colhead, .colhead td {
 
 .colheadmenuactive {
 	font-size: 11pt;
-	background: #2C2C2C;
+	background: rgba(38, 49, 109, 0.75);
 	border: 1px solid #151515;
 }
 
 .colheadmenuactive a {
-	color: #0087DC;
+	color: #FFF;
 }
 
 .colheadmenuactive a:hover {
