@@ -1767,6 +1767,18 @@ tr.unreadpm {
 	margin: 0 0 0 5px !important;
 }
 
+#stats_spin {
+	border-left: 1px dashed #3a3a3a;
+	padding: 0 0 0 10px;
+	margin: 0 0 0 5px !important;
+}
+
+#stats_skrab {
+	border-left: 1px dashed #3a3a3a;
+	padding: 0 0 0 10px;
+	margin: 0 0 0 5px !important;
+}
+
 #stats_connectable font[color=green] {
 	color: #418B00;
 }
