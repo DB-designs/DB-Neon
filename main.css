@@ -97,6 +97,8 @@ li {
 }
 
 input, button {
+	background: #1b1b30;
+	/*
 	background: #2e2e2e;
 	background: -moz-linear-gradient(top, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2e2e2e), color-stop(50%, #303030), color-stop(51%, #252525), color-stop(100%, #1f1f1f));
@@ -105,14 +107,19 @@ input, button {
 	background: -ms-linear-gradient(top, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
 	background: linear-gradient(to bottom, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#1f1f1f', GradientType=0);
-	box-shadow: 0 0 5px #1a1a1a;
-	border-radius: 4px;
 	border-right: 1px solid #1b1b1b;
 	border-bottom: 1px solid #1b1b1b;
 	border-top: 1px solid #434343;
 	border-left: 1px solid #3a3a3a;
-	color: #afafaf;
-	padding: 0 2px;
+	*/
+	box-shadow: 0 0 5px #1a1a1a;
+	border-radius: 4px;
+	border-top: 1px solid #947be8;
+    border-left: 1px solid #947be8;
+    border-right: 1px solid #7c4a93;
+    border-bottom: 1px solid #7c4a93;
+	color: #fff;
+	padding: 2px 2px;
 }
 
 input:hover {
@@ -388,7 +395,7 @@ ul.thin li {
 	position: absolute;
 	top: 130px;
 	text-align: center;
-	right: 26px;
+	right: 29px;
 	padding: 4px 0px;
 }
 
@@ -622,6 +629,7 @@ p.min_padding {
 
 .newspage {
 	font-size: 9pt !important;
+	background-color: rgba(38, 49, 109, 0.2) !important;
 }
 
 .pad h3, .pad h4, .padbox h3, .padbox h4 {
@@ -1331,7 +1339,7 @@ span.powerleech {
 
 .box {
 	/*background-color: rgba(59, 43, 125, 0.15);*/
-	background-color: rgba(38, 49, 109, 0.2);
+	background-color: rgb(19, 23, 45);
 	border: 1px solid #101010;
 	box-shadow: 0 0 5px #947be8;
 	border: 1px solid #947be8;
@@ -1579,7 +1587,7 @@ tr.unreadpm {
 #userinfo {
 	position: absolute;
 	top: 20px;
-	right: 10px;
+	right: 0px;
 	clear: left;
 	height: 120px;
 }
@@ -1602,7 +1610,7 @@ tr.unreadpm {
 	width: 300px;
 	position: absolute;
 	top: 0px;
-	right: 10px;
+	right: 30px;
 	background: none;
 }
 
@@ -1686,7 +1694,7 @@ tr.unreadpm {
 
 #userinfo_major .user_stat_pics {
 	position: absolute;
-	right: 46px;
+	right: 55px;
 	top: -61px;
 	clear: left;
 }
@@ -1790,7 +1798,7 @@ tr.unreadpm {
 #userinfo_major {
 	position: absolute;
 	top: 84px;
-	right: 0px;
+	right: 12px;
 	z-index: 2;
 }
 
@@ -1918,22 +1926,42 @@ tr.unreadpm {
 
 
 /* MOD BAR */
-
+/*
 #modbarmain {
 	width: 100%;
 	background: #222;
 	border-bottom: 1px solid #2f2f2f;
 	line-height: 24px;
 	margin-bottom: 20px;
+} */
+
+#modbarmain {
+    /* width: 67vw; */
+    /* background: #222; */
+    /* border-top: 1px solid #2f2f2f; */
+    /* border-bottom: 1px solid #2f2f2f; */
+    /* border-right: 1px dashed #3a3a3a; */
+    /* line-height: 24px; */
+    margin-bottom: 20px;
+    position: absolute;
+    margin-top: -146px;
+    margin-right: 297px;
+    /* margin-left: 792px; */
+    /* padding: 0 5px 0 5px; */
+    text-align: right;
+    right: 0;
+    background: #13172d;
 }
 
 .modbar {
 	width: 100%;
-	border-bottom: 1px solid #151515;
+	/*border-bottom: 1px solid #151515;*/
 }
 
-.modbar a:first-child {
-	margin-left: 60px;
+.modbar a {
+	margin-left: 0px;
+	border-right: 1px dashed #3a3a3a;
+    padding: 0 5px 0 1px;
 }
 
 #torrents #searchform {
@@ -2005,9 +2033,7 @@ tr.unreadpm {
 /* fixes for small windows */
 
 @media screen and (max-width: 1400px) {
-	#userinfo {
-		right: 10px;
-	}
+	
 }
 
 @media screen and (max-width: 1200px) {
@@ -2015,10 +2041,10 @@ tr.unreadpm {
 		margin-left: 10px;
 	}
 	#userinfo_stats {
-		width: 200px;
+		width: 288px;
 		top: 40px;
 	}
-	#stats_ratio {
+	#stats_spin {
 		border-left: 0;
 	}
 	#stats_connectable {
@@ -2026,11 +2052,14 @@ tr.unreadpm {
 		top: 20px;
 		right: 14px;
 	}
-	#stats_ratio {
+	li#stats_spin {
+		padding-left: 94px;
+	}
+	/*#stats_ratio { 
 		position: absolute !important;
 		top: 20px;
 		right: 114px;
-	}
+	} */
 	/*
     #searchbars {
 
@@ -2340,4 +2369,14 @@ img[src="/static/common/torrents/imdb.png"] {
 	height: 32px;
 	width: 32px;
 	display: inherit;
+}
+
+li#nav_donate a:after {
+	content: "Støt siden";
+	color: red;
+	font-weight: bold;
+}
+
+li#nav_donate span {
+	display: none;
 }
