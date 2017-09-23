@@ -2097,7 +2097,7 @@ td.searchbox select {
 
 /* Override Pagination */
 .pagination .current {
-	background: rgba(38, 49, 109, 0.35) !important;
+	background: rgba(38, 49, 109, 0.75) !important;
 	color: #fff !important;
 }
 
